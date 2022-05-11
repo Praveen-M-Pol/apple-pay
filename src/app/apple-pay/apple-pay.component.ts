@@ -30,10 +30,10 @@ export class ApplePayComponent implements AfterViewInit {
         
       // Adding body or contents to send
       body: JSON.stringify({
-        merchantIdentifier: "merchant.com.codemind.apple-pay",
-        displayName: "Apple Pay Test",
+        merchantIdentifier: "com.dfoe.friadmin",  //    merchant.com.frisome
+        displayName: "FRISOME LLC",
         initiative: "web",
-        initiativeContext: "makemecode.com"
+        initiativeContext: "https://www.frisome.com"
       }),
         
       // Adding headers to the request
